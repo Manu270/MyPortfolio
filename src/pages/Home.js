@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaMapMarkerAlt, FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';  // For LeetCode icon
 import './Home.css';
 
 const Home = () => {
@@ -47,7 +49,7 @@ const Home = () => {
                         transition={{ delay: 0.6 }}
                     >
                         I love turning ideas into powerful, real-world solutions—whether it is building AI-driven applications, 
-                        optimizing performance, or crafting intuitive web experiences. With a passion for innovation and problem-solving, I constantly explore new technologies to push the limits of what’s possible.
+                        optimizing performance, or crafting intuitive web experiences. With a passion for innovation and problem-solving, I constantly explore new technologies to push the limits of what's possible.
 
 
                         <br /><br />
@@ -60,15 +62,29 @@ const Home = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8 }}
                     >
-                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-github"></i>
+                        <a href="https://github.com/Manu270" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           className="social-icon"
+                        >
+                            <FaGithub />
                         </a>
-                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/chitti-manogna-b6b9a2250" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           className="social-icon"
+                        >
+                            <FaLinkedinIn />
                         </a>
-                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-twitter"></i>
+                        
+                        <a href="https://leetcode.com/u/chittimanu2703/" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           className="social-icon"
+                        >
+                            <SiLeetcode />
                         </a>
+                        
                     </motion.div>
 
                     <motion.button 
