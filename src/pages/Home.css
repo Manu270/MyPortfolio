@@ -62,14 +62,26 @@
     margin-bottom: 2rem;
 }
 
-.social-links a {
+.social-icon {
     color: #fff;
     font-size: 1.5rem;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.social-links a:hover {
+.social-icon:hover {
     color: #00ffff;
+    transform: translateY(-3px);
+    background: rgba(0, 255, 255, 0.1);
+    border-color: rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
 }
 
 .download-cv {
