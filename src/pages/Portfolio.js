@@ -13,7 +13,7 @@ const Portfolio = () => {
         },
         // Add more projects following the same structure
         {
-            title: "Simple Portfolio Tracker",
+            title: "Stock Portfolio Tracker",
             description: "A full-stack web application for seamless stock portfolio management with features to add, edit, and delete stocks while dynamically tracking portfolio value. The platform offers intuitive data handling and plans to include advanced dashboards and real-time stock price integration. Perfect for streamlined portfolio tracking.",
             image: "/assets/portfolio tracker.png",
             technologies: ["React", "Tailwand CSS", "java springboot" , "MySQL"],
