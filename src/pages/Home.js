@@ -109,7 +109,7 @@ const Home = () => {
                     <div className="profile-image">
                         <img 
                             src="/assets/profile.jpeg"
-                            alt="Chittiri Sowmya"
+                            alt="Chitti Manogna"
                             loading="eager"
                         />
                     </div>
