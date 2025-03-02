@@ -13,21 +13,21 @@ const Portfolio = () => {
         },
         // Add more projects following the same structure
         {
+            title: "Smart Analyst",
+            description: "Smart Analyst processes 10-K financial reports, converting PDFs into Excel files with insights and automated financial graphs. It features an AI chatbot (Gemini API) for real-time data analysis, built with React.js (Frontend) and Flask (Backend). The platform leverages Pandas, Matplotlib, and Plotly for data processing.",
+            image: "/assets/smart analyst.png",
+            technologies: ["Python", "Flask", "React"],
+            liveLink: "https://project1.com",
+            githubLink: "https://github.com/Manu270/Smart-Analyst.git"
+        },
+        
+        {
             title: "Stock Portfolio Tracker",
             description: "A full-stack web application for seamless stock portfolio management with features to add, edit, and delete stocks while dynamically tracking portfolio value. The platform offers intuitive data handling and plans to include advanced dashboards and real-time stock price integration. Perfect for streamlined portfolio tracking.",
             image: "/assets/portfolio tracker.png",
             technologies: ["React", "Tailwand CSS", "java springboot" , "MySQL"],
             liveLink: "https://project1.com",
             githubLink: "https://github.com/Manu270/CapX.git"
-        },
-
-        {
-            title: "lowlight image enhancemnt",
-            description: "This project focuses on enhancing the quality of images captured in low-light conditions using advanced image processing and deep learning techniques. It aims to improve brightness, contrast, and detail visibility while minimizing noise and preserving natural color balance. Applications include photography, surveillance, and medical imaging.",
-            image: "/assets/low-light.jpg",
-            technologies: ["Python", "Flask", "Html" , "CSS"],
-            liveLink: "https://project1.com",
-            githubLink: "https://github.com/Manu270/lowlight.git"
         },
 
         {
